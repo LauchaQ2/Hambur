@@ -4,7 +4,7 @@
 }
 body, html{
     background-color: white;
-    min-height: 100%;
+    margin: 0;
 }
 .header{
     min-height: 74px;
@@ -56,7 +56,7 @@ a:hover{
     color: white;
 }
 .container{
-    min-height: 550px;
+    min-height: 450px;
     width: 100%;
     border: black 1px solid;
     display: flex;
@@ -140,9 +140,28 @@ a:hover{
     margin-right: auto;
     text-align: center;
     margin-bottom: auto;
+    border-radius: 15px;
+}
+.order2{
+        border-radius: 15px;
+        background-color: rgb(58, 94, 94);
+        border: 1px solid black;
+        font-family: Neutra;
+        color: black;
+        font: bolder;
+        font-size: 50px;
+        width: 50%;
+        height: auto;
+        margin-top: 20%;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+        margin-bottom: 25%;
+        display: block;
 }
 .footer{
-    min-height: 200px;
+    height: 100px;
+    min-height: 100px;
     width: 100%;
     border: black 1px solid;
     background-color: rgb(58, 94, 94);
@@ -150,15 +169,15 @@ a:hover{
 .containerfoot{
     display: flex;
     margin: 10px 10px;
-    min-height: 180px;
+    min-height: 80px;
     flex-wrap: nowrap;
-    max-height: 180px;
+    max-height: 80px;
 }
 .leftrow{
     display: flex;
     margin-top: 0px;
     margin-left: 0px;
-    min-height: 180px;
+    min-height: 80px;
     flex-wrap: wrap;
     width: 33.33%;
 }
@@ -166,7 +185,7 @@ a:hover{
     display: flex;
     margin-top: 0px;
     margin-left: 0px;
-    min-height: 180px;
+    min-height: 80px;
     flex-wrap: wrap;
     width: 33.33%;
 }
@@ -174,14 +193,14 @@ a:hover{
     display: flex;
     margin-top: 0px;
     margin-left: 0px;
-    min-height: 180px;
+    min-height: 80px;
     flex-wrap: wrap;
     width: 33.33%;
 }
 .extrainfo{
     display: flex;
     margin: 20px;
-    min-height: 140px;
+    min-height: 40px;
     flex-wrap: wrap;
     width: 100%;
 }
@@ -191,7 +210,7 @@ a:hover{
     margin-left: 0px;
     margin-right: 0px;
     width: 100%;
-    max-height: 140px;
+    max-height: 40px;
     display: flex;
     list-style: none;
     justify-content: center;
@@ -220,7 +239,7 @@ a:hover{
     margin-left: 0px;
     margin-right: 0px;
     width: 100%;
-    max-height: 140px;
+    max-height: 40px;
     display: flex;
     list-style: none;
     justify-content: center;
@@ -230,21 +249,21 @@ a:hover{
 .logo2{
     background-image: url(logo.png);
     background-size: cover;
-    height: 100px;
-    min-height: 100px;
-    width: 100px;
-    min-width: 100px;
+    height: 50px;
+    min-height: 50px;
+    width: 50px;
+    min-width: 50px;
     border-radius: 10px;
 }
 .logo2:hover{
-    width: 150px;
-    height: 150px;
+    width: 75px;
+    height: 75px;
 }
 img{
-    height: 25px;
-    min-height: 25px;
-    width: 25px;
-    min-width: 25px;
+    height: 18px;
+    min-height: 18px;
+    width: 18px;
+    min-width: 18px;
 }
 img:hover{
     height: 27px;
@@ -312,7 +331,18 @@ img:hover{
 	margin-bottom: 7px;
 }
 #btn-modal{
+    border: 1px solid black;
 	display: none;
+    margin-right: 0px;
+    text-align: right;
+}
+.btn-modal2{
+    margin-left: auto;
+    margin-right: 0%;
+    text-align: right;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 3px;
 }
 .lbl-modal{
 	border-radius: 4px;
@@ -327,6 +357,86 @@ img:hover{
 @media only screen and (min-width:320px) and (max-width:768px){
 
 }
-.contenedor{
-		width: 95%;
+.headermodal{
+    background-color: white;
+    border: 1px solid black;
+    font-weight: bold;
+    color: black;
+    font-size: 50px;
+    font-family: Neutra;
+    text-decoration: none;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.welcome{
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    font-size: 50px;
+    display: flex;
+    margin: 0;
+}
+.logo3{
+    align-content: center;
+    align-items: center;
+    margin: 0;
+    background-image: url(logo.png);
+    background-size: cover;
+    height: 50px;
+    min-height: 50px;
+    width: 50px;
+    min-width: 50px;
+    max-width: 50px;
+    border-radius: 3px;
+}
+.containerform{
+    font-weight: bold;
+    color: black;
+    font-family: Neutra;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    max-height: auto;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.form1{
+    margin: 3px 0 0 0;
+}
+.form2{
+    margin: 5px 0 0 0;
+}
+#submit{
+    border-radius: 3px;
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+    font-family: Neutra;
+}
+.adicionales{
+    font-size: 30px;
+}
+.emojidex-emoji{
+    height: 5px;
+    width: 5px;
+    max-width: 40px;
+    max-height: 40px;
+    min-height: 40px;
+    min-width: 40px;
 }

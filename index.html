@@ -27,14 +27,50 @@
         <div class="lineslogan"></div>
         <div class="slogan3">Hamburguesas gourmet hechas estilo casero, bien grasosas (como te gustan, rey).</div>
         <input type="checkbox" id="btn-modal">
-            <label for="btn-modal" class="lbl-modal"><div class="order">¡ARMÁLA COMO QUIERAS!</div></label>
+            <label for="btn-modal" class="lbl-modal"><div class="order">¡TOCÁ ACÁ Y ARMÁLA COMO QUIERAS!</div></label>
             <div class="modal">
-                <div class="order">
-                    <header>¡Bienvenidos!</header>
-                    <label for="btn-modal">X</label>
-                    <div class="contenido">
-                        <h3>CHUPALA PUTO</h3>
-                        <p>asdad</p>
+                <div class="order2">
+                    <header class="headermodal"><div class="welcome">Burguer Laucha<h1 class="logo3"></h1></div class="X"><label for="btn-modal" class="btn-modal2">X</label></header>
+                    <div class="containerform">
+                        <form class="form" action="https://formspree.io/f/xyylbqwj" method="POST">
+                            <div class="form1" ><label for="name">Nombre: <input name="Nombre" type="text" placeholder="Escribe tu nombre..."></label></div>
+                            <div class="form2" ><label for="lastname">Apellido: <input name="Apellido" type="text" placeholder="Escribe tu apellido..."></label></div>
+                            <div class="form2" ><label for="email">Nombre: <input name="E-mail" type="email" placeholder="Escribe tu e-mail..."></label></div>
+                            <div class="lineslogan"></div>
+                            <div class="form2" ><label for="typemeat">¿Qué tipo de medallón querés? 
+                                <select name="Tipo de carne" id="typemeat">
+                                    <option value="Vacuno">Vacuno</option>
+                                    <option value="Pollo">Pollo</option>
+                                    <option value="Vegano">Vegano</option>
+                                </select>
+                            </label>
+                            </div>
+                            <div class="form2" ><label for="hmuchmeat">¿Cuántos medallones querés? <input type="number"></label></div>
+                            <div class="form2" ><label for="sizemeat">¿Qué tamaño de medallón? 
+                                <select name="Tamaño de medallón" id="sizemeat">
+                                    <option value="100gr">100g</option>
+                                    <option value="150gr">150gr</option>
+                                    <option value="200gr">200gr</option>
+                                </select>
+                            </label>
+                            </div>
+                            <div class="lineslogan"></div>
+                            <div class="form2" >¿Qué querés agregarle?</div>
+                            <div class="form2" >Adicionales</div>
+                            <div class="form2" >
+                                <label class="adicionales" for="cheddar">🧀 <input type="checkbox" name="Cheddar"></label>
+                                <label class="adicionales" for="tomate">&#127813 <input type="checkbox" name="Tomate"></label>
+                                <label class="adicionales" for="lechuga">🥬 <input type="checkbox" name="Lechuga"></label>
+                                <label class="adicionales" for="bacon">🥓 <input type="checkbox" name="Bacon"></label>
+                            </div>
+                            <div class="form2">Aderezos</div>
+                            <div class="form2" >
+                                <label class="adicionales" for="mostaza"><img class="emojidex-emoji" src="https://cdn.emojidex.com/emoji/seal/mustard.png" emoji-code="mustard" alt="mustard" /> <input type="checkbox" name="Mostaza"></label>
+                                <label class="adicionales" for="mayonesa"><img class="emojidex-emoji" src="https://cdn.emojidex.com/emoji/seal/mayonnaise.png" emoji-code="mayonnaise" alt="mayonnaise" /> <input type="checkbox"  name="Mayonesa"></label>
+                                <label class="adicionales" for="ketchup"><img class="emojidex-emoji" src="https://cdn.emojidex.com/emoji/seal/ketchup.png" emoji-code="ketchup" alt="ketchup" /> <input type="checkbox" name="Ketchup"></label>
+                            </div>
+                            <div class="form2"><input id="submit" type="submit" value="ORDENAR"><input id="submit" type="reset" value="BORRAR"></div>
+                        </form>
                     </div>
                 </div>
             </div>
