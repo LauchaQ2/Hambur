@@ -80,6 +80,19 @@ a:hover{
     align-content: flex-start;
     justify-content: center;
 }
+.containerfran{
+    min-height: 450px;
+    width: 100%;
+    border: black 1px solid;
+    display: flex;
+    background-image: url(franquiciaback.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
 .container3{
     height: auto;
     min-height: 450px;
@@ -92,8 +105,10 @@ a:hover{
     flex-wrap: wrap;
     align-content: flex-start;
     justify-content: center;
+    color: rgba(0,0,0,0.7);
 }
 .menu{
+    border: 1px solid black;
     height: auto;
     min-height: 450px;
     width: 100%;
@@ -105,12 +120,11 @@ a:hover{
     background-position: 50% 50%;
     align-content: flex-start;
     justify-content: center;
-    margin-bottom: 20px;
 }
 .menu2{
     height: auto;
-    min-height: 450px;
-    width: auto;
+    min-height: 500px;
+    width: 100%;
     display: block;
     background-color: white;
     flex-wrap: wrap;
@@ -118,7 +132,7 @@ a:hover{
     align-content: flex-start;
     justify-content: center;
     list-style: none;
-    margin: 0 15% 0 15%;
+    margin: 0 5% 0 5%;
 }
 .headerburga{
     height: auto;
@@ -135,8 +149,24 @@ a:hover{
     align-items: center;
     font-size: 60px;
 }
+.headerburga2{
+    height: auto;
+    width: auto;
+    display: flex;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-family: Neutra;
+}
 .cheesesimple{
     margin-top: 15px;
+    margin-bottom: 15px;
     display: flex;
     align-items: center;
     align-content: center;
@@ -158,6 +188,21 @@ a:hover{
     font-family: Neutra;
     margin-left: 25px;;
     width: 200px;
+}
+.infoburga3{
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+    align-content: center;
+    font-family: Neutra;
+    margin-top: 20px;
+    width: 200px;
+    text-align: center;
+}
+.infoburga3 h3:hover{
+    color: black;
+    transition: 0.3s;
+    transition-delay: 0.3s;
 }
 .infoburga p{
     color: rgb(85, 83, 83);
@@ -289,6 +334,24 @@ a:hover{
     text-align: center;
     margin-bottom: auto;
 }
+.slogan7{
+    text-shadow: 2px 5px 2px black;
+    font-family: Neutra;
+    background-color: rgba(0,0,0,0.85);
+    color: white;
+    font: bolder;
+    font-size: 70px;
+    width: auto;
+    height: auto;
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    margin-bottom: auto;
+}
+.containerfran .slogan6{
+    background-color: rgba(0,0,0,0.5);
+}
 .order{
     padding: 5px;
     background-color: yellow;
@@ -362,15 +425,36 @@ a:hover{
     flex-wrap: nowrap;
     max-height: 80px;
 }
+.containerfoot2{
+    display: flex;
+    margin: 30px 0 0 0;
+    min-height: 80px;
+    flex-wrap: nowrap;
+    max-height: auto;
+    align-content: space-between;
+    width: 100%;
+    justify-content: center;
+}
 .leftrow{
+    justify-content: center;
     display: flex;
     margin-top: 0px;
     margin-left: 0px;
+    min-height: 80px;
+    flex-wrap: wrap;
+    width: 33.33%;
+}
+.leftrowfran{
+    justify-content: center;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 0;
     min-height: 80px;
     flex-wrap: wrap;
     width: 33.33%;
 }
 .centerrow{
+    justify-content: center;
     display: flex;
     margin-top: 0px;
     margin-left: 0px;
@@ -378,10 +462,29 @@ a:hover{
     flex-wrap: wrap;
     width: 33.33%;
 }
+.centerrowfran{
+    justify-content: center;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 0;
+    min-height: 80px;
+    flex-wrap: wrap;
+    width: 33.33%;
+}
 .rightrow{
+    justify-content: center;
     display: flex;
     margin-top: 0px;
     margin-left: 0px;
+    min-height: 80px;
+    flex-wrap: wrap;
+    width: 33.33%;
+}
+.rightrowfran{
+    justify-content: center;
+    display: flex;
+    margin-top: 0px;
+    margin-right: 0;
     min-height: 80px;
     flex-wrap: wrap;
     width: 33.33%;
@@ -453,6 +556,12 @@ img{
     min-height: 18px;
     width: 18px;
     min-width: 18px;
+}
+.booking{
+    height: 250px;
+    min-height: 250px;
+    width: 350px;
+    min-width: 350px;
 }
 img:hover{
     height: 25px;
@@ -610,6 +719,53 @@ img:hover{
 }
 .form2{
     margin: 5px 0 0 0;
+}
+.form3{
+    height: auto;
+    display: block;
+    justify-content: center;
+    width: 50%;
+}
+.form3 .form2{
+    font-size: 5px;
+} 
+.form4 input{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: grey;
+    border: 2px solid grey;
+    margin-bottom: 20px;
+    font-family: Neutra;
+}
+.form5 textarea{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: grey;
+    border: 2px solid grey;
+    height: 100%;
+    resize: vertical;
+    margin-top: 30px;
+    height: 70px;
+    font-family: Neutra;
+}
+.form6 input{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    font-family: Neutra;
+}
+.form5 textarea:focus, .form4 input:focus, .form5 input:focus{
+    color: black
+}
+.form6 input:hover{
+    background-color: gold;
+    transition-delay: 0.3s;
+    transition: 0.7s;
 }
 #submit{
     border-radius: 3px;
