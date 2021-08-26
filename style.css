@@ -67,6 +67,129 @@ a:hover{
     flex-wrap: wrap;
     align-content: flex-start;
 }
+.container2{
+    min-height: 450px;
+    width: 100%;
+    border: black 1px solid;
+    display: flex;
+    background-image: url(burga.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+}
+.container3{
+    height: auto;
+    min-height: 450px;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+}
+.menu{
+    height: auto;
+    min-height: 450px;
+    width: 100%;
+    display: block;
+    flex-wrap: wrap;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    align-content: flex-start;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.menu2{
+    height: auto;
+    min-height: 450px;
+    width: auto;
+    display: block;
+    background-color: white;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: center;
+    list-style: none;
+    margin: 0 15% 0 15%;
+}
+.headerburga{
+    height: auto;
+    width: auto;
+    display: flex;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+    font-size: 60px;
+}
+.cheesesimple{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.cheesesimple2{
+    height: 130px;
+    min-height: 130px;
+    width: 130px;
+    min-width: 130px;
+    max-width: 130px;
+    border-radius: 50%;
+}
+.infoburga{
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+    align-content: center;
+    font-family: Neutra;
+    margin-left: 25px;;
+    width: 200px;
+}
+.infoburga p{
+    color: rgb(85, 83, 83);
+}
+.infoburga2{
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+    align-content: center;
+    font-family: Neutra;
+    margin-left: 25px;;
+    width: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+.cost{
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+    align-content: center;
+    font-family: Neutra;
+    margin-left: 25px;;
+    width: 50px;
+    text-align: center;
+    font-size: 20px;
+    visibility: hidden;
+    opacity: 0;
+}
+.infoburga2:hover ~ .cost{
+    visibility: visible;
+    opacity: 1;
+}
 @font-face{
     src: url(NeutraText-Bold.otf);
     font-family: Neutra;
@@ -125,6 +248,47 @@ a:hover{
     text-align: center;
     margin-bottom: auto;
 }
+.slogan4{
+    background-color: rgba(0,0,0,0.5);
+    text-shadow: 2px 2px 2px black;
+    font-family: Roboto;
+    color: white;
+    font: bolder;
+    font-size: 25px;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: auto;
+}
+.slogan5{
+    text-shadow: 2px 2px 2px black;
+    font-family: Roboto;
+    color: white;
+    font: bolder;
+    font-size: 25px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.slogan6{
+    text-shadow: 2px 2px 2px black;
+    font-family: Roboto;
+    background-color: rgba(0,0,0,0.75);
+    color: white;
+    font: bolder;
+    font-size: 25px;
+    width: auto;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    margin-bottom: auto;
+}
 .order{
     padding: 5px;
     background-color: yellow;
@@ -158,6 +322,31 @@ a:hover{
         text-align: center;
         margin-bottom: 25%;
         display: block;
+}
+.order3{
+    padding: 5px;
+    background-color: white;
+    border: 1px solid black;
+    font-family: Neutra;
+    color: black;
+    font: bolder;
+    width: auto;
+    height: auto;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.up{
+    font-size: 25px;
+    font-family: Neutra;
+    text-decoration: none;
+    color: black;
+}
+.up:hover{
+    color: black;
 }
 .footer{
     height: 100px;
@@ -266,8 +455,8 @@ img{
     min-width: 18px;
 }
 img:hover{
-    height: 27px;
-    width: 27px;
+    height: 25px;
+    width: 25px;
 }
 
 .modal{
