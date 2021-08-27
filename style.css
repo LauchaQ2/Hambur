@@ -29,6 +29,9 @@ body, html{
     max-width: 74px;
     border-radius: 8px;
 }
+.logo:hover{
+    background-image: url(logoblanco.png);
+}
 .navbar{
     width: 100%;
     display: flex;
